@@ -1,0 +1,141 @@
+.main-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    align-items: flex-start;
+}
+
+.mid-content {
+    margin-top: 6rem;
+    left: -11rem;
+    position: relative;
+    background-color: white;
+    box-shadow: 15px 15px 15px 20px whitesmoke;
+
+}
+
+.mid-content::after {}
+
+.top-content {
+    margin-bottom: 13rem;
+
+}
+
+.top-content>h3 {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.mid-main {
+    display: flex;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.l-mid>* {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 8px;
+}
+
+.l-mid {
+    gap: 2rem;
+}
+
+.btn {
+    position: relative;
+    left: 1rem;
+    border-radius: 25px;
+    padding: 10px 18px;
+    color: white;
+    background-color: #800080;
+    border: none;
+}
+
+.l-mid>p {
+    color: #800080;
+}
+
+.r-content {
+    padding-left: 7rem;
+    position: relative;
+    top: 4rem;
+}
+
+.r-content>h2 {
+    position: relative;
+    left: 1rem;
+}
+
+.r-content>h1 {
+    border: 1px solid #800080;
+    border-radius: 6px;
+    color: #800080;
+    font-weight: lighter;
+    left: 3rem;
+    position: relative;
+    padding: 0px 41px;
+}
+
+.ref-count {
+    display: block;
+}
+
+@media only screen and (max-width: 1328px) {
+    .top-content>h3 {
+        font-weight: 100;
+        font-size: 15px;
+        width: 10rem;
+        position: relative;
+        left: -2rem;
+    }
+
+    .mid-main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main-content {
+        position: relative;
+        width: 35vw;
+    }
+
+    .r-content {
+        position: relative;
+        left: -43rem;
+        top: 24rem;
+        display: flex;
+        flex-direction: column;
+        width: 36vw;
+        font-size: 10px;
+        margin-bottom: 18rem;
+    }
+
+    .r-content>h1 {
+        width: 25vw;
+        left: 0.25em;
+    }
+
+    .mid-content {
+        position: relative;
+        left: -14rem;
+        width: 77vw;
+        transform: scale(1.3);
+        margin-bottom: 1rem;
+    }
+
+    .r-content>h2 {
+        font-size: 35px;
+        width: 77vw;
+    }
+
+    .r-content>h1 {
+        font-size: 62px;
+        width: 77vw;
+        border-radius: 28px;
+        position: relative;
+        left: -1rem;
+    }
+}
